@@ -20,3 +20,10 @@ fl {
 
 rl {
   float: right; }
+
+.clear::after {
+  content: "";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both; }
